@@ -175,29 +175,29 @@
 /* responsive container start */
 @media (max-width: 1200px) {
   .full_container {
-      display: none;
+    display: none;
   }
 
   .mobile_container {
-      display: none;
+    display: none;
   }
 
   .responsive_container {
-      display: block;
+    display: block;
   }
 }
 
 @media (min-width: 1200px) {
   .full_container {
-      display: block;
+    display: block;
   }
 
   .mobile_container {
-      display: none;
+    display: none;
   }
 
   .responsive_container {
-      display: none;
+    display: none;
   }
 }
 
@@ -205,28 +205,31 @@
 
   .full_container,
   .responsive_container {
-      display: none;
+    display: none;
   }
 
   .mobile_container {
-      display: block;
+    // mobile responsive not working properly
+    display: none;
+    // actual css is display: block;
+    // display: block;
   }
 
   .container {
-      position: relative;
-      height: 100vh;
+    position: relative;
+    height: 100vh;
   }
 
   .bottom_menu_box {
-      position: absolute;
-      bottom: 0;
+    position: absolute;
+    bottom: 0;
 
-      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-      width: 100%;
-      display: flex;
-      justify-content: space-evenly;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
 
-      padding: 5px 0;
+    padding: 5px 0;
   }
 
 
@@ -259,22 +262,3 @@
 }
 
 /* bottom menu end  */
-
-
-/* hero section start  */
-.hero_section {
-  width: 100%;
-  display: flex;
-}
-
-.hero_section .left {
-  display: flex;
-  flex-basis: 50%;
-}
-
-.hero_section .right {
-  display: flex;
-  flex-basis: 50%;
-}
-
-/* hero section end  */

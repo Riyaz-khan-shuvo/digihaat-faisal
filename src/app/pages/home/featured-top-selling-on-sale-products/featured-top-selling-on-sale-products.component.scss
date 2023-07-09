@@ -1,0 +1,71 @@
+// width: 540px 
+.featured-top-selling-onSale-products {
+    margin: auto;
+    // border: 3px solid red;
+}
+
+.featured-top-selling-onSale-products-box {
+    // border: 3px solid green;
+    padding: 0 30px;
+    margin: 30px 0;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+@media (max-width: 1600px){
+    .featured-top-selling-onSale-products-box {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 1200px){
+    .featured-top-selling-onSale-products-box {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 700px){
+    .featured-top-selling-onSale-products-box {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.single-featured-top-selling-onSale-products {
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    height: 70px;
+    width: 63px;
+}
+
+.image img {
+    height: 100%;
+    width: 100%;
+}
+
+.desc h5 {
+    color: blue;
+}
+
+.desc i {
+    color: goldenrod;
+}
+
+// image section 
+.image-products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
