@@ -8,6 +8,7 @@ import { WeekdealsComponent } from './weekdeals/weekdeals.component';
 import { HeroServicesComponent } from './hero-services/hero-services.component';
 import { HeroBannerComponent } from './hero-banner/hero-banner.component';
 import { HeroOffersComponent } from './hero-offers/hero-offers.component';
+import { FeaturedTopSellingOnSaleProductsComponent } from './featured-top-selling-on-sale-products/featured-top-selling-on-sale-products.component';
 
 
 
@@ -19,6 +20,7 @@ import { HeroOffersComponent } from './hero-offers/hero-offers.component';
     HeroServicesComponent,
     HeroBannerComponent,
     HeroOffersComponent,
+    FeaturedTopSellingOnSaleProductsComponent,
 
   ],
   imports: [
