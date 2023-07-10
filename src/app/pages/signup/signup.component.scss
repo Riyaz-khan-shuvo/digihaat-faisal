@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 body{
   min-height: 100vh;
@@ -14,7 +14,7 @@ body{
 }
 .wrapper{
   position: relative;
-  max-width: 500px;
+  max-width: 700px;
   width: 100%;
   background: #fff;
   padding: 50px;
@@ -33,7 +33,7 @@ display: inline-block;
     display:line-block;
     top:50%;
     background-color:#fcd804;
-    color: #0a0a0a;
+    color: #000000;
     border:none; 
     border-radius:10px; 
     padding:15px;
@@ -43,7 +43,7 @@ display: inline-block;
 .wrapper h2{
     text-align: center;
      position: relative;
-     font-size: 13px;
+     font-size: 20px;
      font-weight: 400;
      color: #000000;
    }
@@ -74,11 +74,33 @@ form .input-box input{
   border-color: #fcd804;
   text-align: center;
 }
-
+form .policy{
+  display: flex;
+  align-items: center;
+}
+form h3{
+  color: #707070;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 10px;
+}
 .input-box.button input{
   color: #000000;
   letter-spacing: 1px;
   border: none;
   background: #fcd804;
   cursor: pointer;
+}
+
+form .text h3{
+ color: #333;
+ width: 100%;
+ text-align: center;
+}
+form .text h3 a{
+  color: #4070f4;
+  text-decoration: none;
+}
+form .text h3 a:hover{
+  text-decoration: underline;
 }
