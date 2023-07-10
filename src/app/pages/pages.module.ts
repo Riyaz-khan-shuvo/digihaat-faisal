@@ -6,11 +6,13 @@ import { PagesComponent } from './pages.component';
 import { HeaderModule } from '../shared/components/header/header.module';
 import { FooterModule } from '../shared/components/footer/footer.module';
 import { AboutComponent } from './about/about.component';
+import { LoginComponent } from './login/login.component';
 
 
 @NgModule({
   declarations: [
     PagesComponent,
+    LoginComponent,
   ],
   imports: [
     CommonModule,
