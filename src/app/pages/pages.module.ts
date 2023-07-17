@@ -6,11 +6,15 @@ import { PagesComponent } from './pages.component';
 import { HeaderModule } from '../shared/components/header/header.module';
 import { FooterModule } from '../shared/components/footer/footer.module';
 import { AboutComponent } from './about/about.component';
+import { LoginComponent } from './login/login.component';
+import { SignupComponent } from './signup/signup.component';
 
 
 @NgModule({
   declarations: [
     PagesComponent,
+    LoginComponent,
+    SignupComponent,
   ],
   imports: [
     CommonModule,

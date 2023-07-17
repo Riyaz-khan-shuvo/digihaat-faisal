@@ -1,4 +1,157 @@
-
-footer {
-    color: red;
-}
+/* newsletter start*/
+.navitem {
+    background: rgb(248, 248, 4);
+  }
+  
+  @media (max-width: 1600px) {
+    .navitem {
+      display: flex;
+      flex-direction: row;
+    }
+  
+    .email {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    .navitem {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
+  .desc {
+    flex-basis: 50%;
+    padding: 15px 20px;
+  }
+  
+  .desc h4 {
+    font-size: 22px;
+  }
+  
+  .desc p {
+    font-size: 20px;
+  }
+  
+  .email {
+    max-width: 650px;
+    /* border: 2px solid blue; */
+  
+    display: flex;
+    padding: 10px 20px;
+  }
+  
+  .email input {
+    padding: 15px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+  }
+  
+  .email button {
+    padding: 15px 20px;
+    background: #2e2b2b;
+    color: white;
+    min-width: 110px;
+    border: none;
+    outline: none;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+  }
+  
+  /* newsletter end*/
+  .pargraph h2 {
+    padding: 20px 60px;
+    font-size: 20px;
+    font-weight: 800;
+  }
+  .pargraph p {
+    padding: 0 60px;
+    font-size: 17.5px;
+    line-height: 30px;
+    text-align: justify;
+  }
+  .pargraph a {
+    text-decoration: none;
+    color: orange;
+  }
+  /* footer start  */
+  .continer {
+    max-width: 1170px;
+    margin: auto;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  ul {
+    list-style: none;
+  }
+  .footer {
+    background-color: white;
+    padding: 70px 0;
+  }
+  .footer-col-1 {
+    width: 35%;
+  }
+  .footer-col-1 img {
+    padding-bottom: 20px;
+    width: 175px;
+  }
+  .footer-col-1 h3 {
+    font-size: 15px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+  }
+  .footer-col-1 h4 {
+    padding-top: 20px;
+  }
+  .social-link {
+    padding-top: 20px;
+  }
+  .social-link i {
+    padding-left: 20px;
+  }
+  .social-link a:hover {
+    color: yellow;
+    transition: all 0.5s ease;
+  }
+  .footer-col {
+    width: 20.5%;
+    padding-left: 55px;
+  }
+  .footer-col h4 {
+    font-weight: 200px;
+    padding-bottom: 50px;
+    font-size: 20px;
+  }
+  .footer-col li {
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    line-height: 25px;
+    word-spacing: 5px;
+  }
+  /* reaponaive */
+  @media (max-width: 574px) {
+    .footer-col-1 {
+      width: 100%;
+      padding-left: 60px;
+      text-align: center;
+    }
+  }
+  @media (max-width: 574px) {
+    .footer-col {
+      padding-top: 30px;
+      width: 100%;
+      text-align: center;
+    }
+  }
+  /* footer end */
