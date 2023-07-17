@@ -70,6 +70,25 @@
     padding-left: 10px;
     text-align: center;
 }
+
+.Deals_week_card_body_main {
+    // border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.Deals_week_card_body_main_price .product_title {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.Deals_week_card_body_main_price h3 {
+    padding: 1rem 0;
+}
+
+
 .Deals_week_card_body_main_stock_top{
     display: flex;
     align-items: center;
@@ -94,32 +113,39 @@
     height: 100%;
     border-radius: inherit;
 }
+
 .Deals_week_card_body_main_offer{
     display: block;
-    margin-top: 10px;
 }
+
+.Deals_week_card_body_main_offer p{
+    padding-top: 1rem;
+}
+
 .time-area{
     display: block;
     width: 100%;
+    padding-top: 1.3rem;
+    // border: 1px solid red;
 }
 .time-main{
+    // border: 2px solid green;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
-    max-width: 200px;
     width: 100%;
     margin: auto;
 }
 .time{
     display: block;
-    width: 80px;
     position: relative;
 }
 .time-box{
     background-color: #f5f5f5;
-    width: 60px;
-    height: 60px;
+    // border: 1px solid blue;
+    width: 3rem;
+    height: 3rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -129,3 +155,28 @@
 .time-text{
     display: block;
 }
+
+
+// responsiveness start 
+@media (max-width: 1600px) {
+    .Deals_week_main {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 990px) {
+    .Deals_week_main {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  
+  @media (max-width: 450px) {
+    .Deals_week_card {
+      display: flex;
+      flex-direction: column;
+    //   background: red;
+    }
+  }
+// responsiveness end 
