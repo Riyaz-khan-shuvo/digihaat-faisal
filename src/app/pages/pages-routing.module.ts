@@ -25,11 +25,11 @@ const routes: Routes = [
       {
         path: 'signup', component: SignupComponent
       },
-      // {
-      //   path: 'details/:id',
-      //   loadChildren: () =>
-      //     import('./product-details/product-details.module').then((m) => m.ProductDetailsModule),
-      // },
+      {
+        path: 'details/:id',
+        loadChildren: () =>
+          import('./product-details/product-details.module').then((m) => m.ProductDetailsModule),
+      },
     ],
   },
 ];
