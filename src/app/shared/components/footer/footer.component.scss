@@ -1,6 +1,6 @@
 /* newsletter start*/
 .navitem {
-    background: rgb(248, 248, 4);
+    background: #fcd804;
   }
   
   @media (max-width: 1600px) {
@@ -119,7 +119,7 @@
     padding-left: 20px;
   }
   .social-link a:hover {
-    color: yellow;
+    color: #fcd804;
     transition: all 0.5s ease;
   }
   .footer-col {
@@ -140,14 +140,14 @@
     word-spacing: 5px;
   }
   /* reaponaive */
-  @media (max-width: 574px) {
+  @media (max-width: 774px) {
     .footer-col-1 {
       width: 100%;
       padding-left: 60px;
       text-align: center;
     }
   }
-  @media (max-width: 574px) {
+  @media (max-width: 774px) {
     .footer-col {
       padding-top: 30px;
       width: 100%;
