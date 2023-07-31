@@ -1,0 +1,44 @@
+<div class="container">
+    <div class="heading">
+      <p class="title">Trending products</p>
+      <p class="">
+        Go to Trending products <i class="fa-solid fa-chevron-right"></i>
+      </p>
+    </div>
+    <div class="product-container">
+      <div class="product-box">
+        <!-- single product start  -->
+        <div class="single-product" *ngFor="let product of products.slice(0,4)" >
+          <p class="product-title">{{product.title}}</p>
+          <div class="img">
+            <img
+              src="{{product.imgLink}}"
+              alt=""
+            />
+          </div>
+          <div class="product-description">
+            <div>
+              <h4>{{product.newPrice}} TK</h4>
+              <del>-5%</del>
+            </div>
+            <p class="cart"><i class="fa-solid fa-cart-shopping"></i></p>
+          </div>
+          <div class="line">
+            <hr />
+            <div class="wishlist-compare">
+              <div class="wishlist">
+                <i class="fa-solid fa-heart"></i> Wishlist
+              </div>
+              <div class="compare">
+                <i class="fa-solid fa-code-compare"></i> Compare
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- single product end  -->
+
+
+      </div>
+    </div>
+    <hr />
+  </div>

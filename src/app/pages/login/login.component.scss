@@ -20,6 +20,9 @@ body{
   padding: 50px;
   border-radius: 15px;
   box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  // border: 2px solid red;
+
+  margin: 7% auto;
 }
 .wrapper h1{
 display: inline-block;
@@ -34,10 +37,10 @@ display: inline-block;
     top:50%;
     background-color:#fcd804;
     color: #0a0a0a;
-    border:none; 
-    border-radius:10px; 
+    border:none;
+    border-radius:10px;
     padding:15px;
-    min-height:30px; 
+    min-height:30px;
     min-width: 120px;
   }
 .wrapper h2{
@@ -47,7 +50,7 @@ display: inline-block;
      font-weight: 400;
      color: #000000;
    }
-   
+
 
 .wrapper form{
   margin-top: 30px;
