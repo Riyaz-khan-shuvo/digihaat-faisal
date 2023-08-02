@@ -4,6 +4,19 @@
   box-sizing: border-box;
 }
 
+// .full_container {
+//   position: relative;
+// }
+
+// .cart-box {
+//   position: fixed;
+//   top: 400px;
+//   right: 0;
+//   background: blue;
+//   width: 50px;
+//   height: 50px;
+// }
+
 .logo img {
   width: 150px;
   height: 45px;
@@ -201,19 +214,21 @@
 
   .mobile_container {
     // mobile responsive not working properly
-    display: none;
+    // display: none;
     // actual css is display: block;
-    // display: block;
+    display: block;
   }
 
-  .container {
-    position: relative;
-    height: 100vh;
-  }
+  // .container {
+  //   position: relative;
+  //   height: 100vh;
+  // }
 
   .bottom_menu_box {
-    position: absolute;
+    position: fixed;
     bottom: 0;
+
+    background: white;
 
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     width: 100%;
@@ -221,6 +236,8 @@
     justify-content: space-evenly;
 
     padding: 5px 0;
+
+    z-index: 1;
   }
 }
 
