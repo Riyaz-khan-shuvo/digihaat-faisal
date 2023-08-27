@@ -1,0 +1,160 @@
+<div class="container">
+    <!-- breadcrumb start  -->
+    <div class="breadcrumb_box">
+        <ul class="breadcrumb">
+            <li>Home <i class="fa-solid fa-chevron-right"></i></li>
+            <li>Monitor <i class="fa-solid fa-chevron-right"></i></li>
+            <li>MSI <i class="fa-solid fa-chevron-right"></i></li>
+        </ul>
+    </div>
+    <!-- breadcrumb end  -->
+
+    <!-- category_product_details_box start  -->
+    <div class="category_product_details_box">
+        <!-- first category_img and latest products start -->
+        <div class="category_img_latest_products">
+            <div class="category_img">
+                <Select>
+                    <option value="">Show All Categories</option>
+                    <option value="">Fridge</option>
+                </Select>
+                <img src="https://api.digihaat.com.bd/api/upload/images/dfedd-aa2b.png" alt="" />
+            </div>
+            <div class="latest-products">
+                <h2>Latest Products</h2>
+                <div class="hr">
+                    <hr />
+                </div>
+                <div class="latest-products-box">
+                    <!-- latest-single-product start  -->
+                    <div class="latest-single-product">
+                        <img src="https://api.digihaat.com.bd/api/upload/images/lg-22mp400-b-01-500x500-23dd.jpg"
+                            alt="" />
+                        <div class="product-desc">
+                            <h4>LG 22MP400-B 22-inch Full HD Monitor</h4>
+                            <p>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </p>
+                            <h3>10700</h3>
+                        </div>
+                    </div>
+                    <!-- latest-single-product end -->
+
+                    <!-- latest-single-product start  -->
+                    <div class="latest-single-product">
+                        <img src="https://api.digihaat.com.bd/api/upload/images/lg-22mp400-b-01-500x500-23dd.jpg"
+                            alt="" />
+                        <div class="product-desc">
+                            <h4>LG 22MP400-B 22-inch Full HD Monitor</h4>
+                            <p>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </p>
+                            <h3>10700</h3>
+                        </div>
+                    </div>
+                    <!-- latest-single-product end -->
+                    <!-- latest-single-product start  -->
+                    <div class="latest-single-product">
+                        <img src="https://api.digihaat.com.bd/api/upload/images/lg-22mp400-b-01-500x500-23dd.jpg"
+                            alt="" />
+                        <div class="product-desc">
+                            <h4>LG 22MP400-B 22-inch Full HD Monitor</h4>
+                            <p>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </p>
+                            <h3>10700</h3>
+                        </div>
+                    </div>
+                    <!-- latest-single-product end -->
+                </div>
+            </div>
+        </div>
+        <!-- first category_img  and latest products end -->
+
+        <!-- second product img  start -->
+        <div class="product_img">
+            <div class="discount_search_box">
+                <div class="single_discount_search">
+                    <p class="discount">-5%</p>
+                    <p><i class="fa-solid fa-magnifying-glass-dollar"></i></p>
+                </div>
+            </div>
+            <div class="big_img">
+                <img [src]="product?.imgLink" alt="" />
+            </div>
+            <div class="small_img_box">
+                <div class="single_img">
+                    <img src="https://api.digihaat.com.bd/api/upload/images/ps321urv-01-500x500-c927.jpg" alt="" />
+                </div>
+                <div class="single_img">
+                    <img src="https://api.digihaat.com.bd/api/upload/images/ps321urv-02-500x500-510c7.jpg" alt="" />
+                </div>
+                <div class="single_img">
+                    <img src="https://api.digihaat.com.bd/api/upload/images/ps321urv-03-500x500-c1069.jpg" alt="" />
+                </div>
+            </div>
+        </div>
+        <!-- second product img  end -->
+
+        <!-- third product details start  -->
+        <div class="product_details">
+            <div class="title">
+                <p>{{product?.title}}</p>
+            </div>
+            <div class="brand_stock">
+                <p><span class="bold">Brand:</span> MSI</p>
+                <p><span class="bold">Availability:</span> In stock</p>
+            </div>
+            <div class="hr">
+                <hr />
+            </div>
+            <div class="wishlist"><i class="fa-solid fa-heart"></i> Wishlist</div>
+            <div class="key-features">
+                <p><span class="bold">Model:</span> PS321URV</p>
+                <p><span class="bold">Resolution:</span> UHD (3840x2160) 4k</p>
+                <p><span class="bold">Display:</span> IPS, 60Hz, 4ms GtG</p>
+                <p>
+                    <span class="bold">Ports:</span> 2x HDMI, 1x DP, 5x USB, Type-c, Audio
+                    Jack
+                </p>
+                <p><span class="bold">Features:</span> Card Reader Supported</p>
+            </div>
+            <div class="cash-payment">
+                <input type="radio" name="" id="" checked>
+                <div>
+                    <h3>{{product?.newPrice}}৳</h3>
+                    <p>Cash Discount Price</p>
+                    <p>Online / Cash Payment</p>
+                </div>
+            </div>
+            <div class="price">
+                <h2>Price: {{product?.newPrice}} TK</h2>
+                <del>-5%</del>
+            </div>
+            <!-- increment_decrement_add_to_cart start -->
+            <div class="increment_decrement_add_to_cart">
+                <div class="increment_decrement">
+                    <button class="decrement">-</button>
+                    <input type="text" class="amount" value="1" />
+                    <button class="increment">+</button>
+                </div>
+                <div class="add_to_cart">
+                    <button class="cart">Add to Cart</button>
+                </div>
+            </div>
+            <!-- increment_decrement_add_to_cart end -->
+        </div>
+    </div>
+    <!-- third product details end  -->
+
+    <!-- category_product_details_box end  -->
+</div>
