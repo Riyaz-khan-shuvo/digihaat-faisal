@@ -4,18 +4,40 @@
   box-sizing: border-box;
 }
 
-// .full_container {
-//   position: relative;
-// }
+// cart box start 
+.full_container {
+  position: relative;
+}
 
-// .cart-box {
-//   position: fixed;
-//   top: 400px;
-//   right: 0;
-//   background: blue;
-//   width: 50px;
-//   height: 50px;
-// }
+.cart-box {
+  position: fixed;
+  top: 60%;
+  right: 0;
+  
+  background: #fcd804;
+
+  width: 65px;
+  height: 75px;
+
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.top {
+  background-color: #fcd804;
+  padding: 8px 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.card-price {
+  background: white;
+  padding: 4px;
+}
+// cart box end 
 
 .logo img {
   width: 150px;
